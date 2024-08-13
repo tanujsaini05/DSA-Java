@@ -9,6 +9,7 @@ public class SumN {
         int i = in.nextInt();
         in.close();
         sum(i);
+
     }
 
     public static void sum(int n) {
@@ -18,4 +19,6 @@ public class SumN {
         }
         System.out.println("sum till N number is :: " + sum);
     }
+
 }
+
