@@ -18,6 +18,8 @@ public class SearchInRange {
             }  
 
         }
+
+        
         if(!flag){
         System.out.println("Sorry! didn't found your element you are looking for.");}
 
