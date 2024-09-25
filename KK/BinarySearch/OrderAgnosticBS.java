@@ -1,8 +1,16 @@
 package BinarySearch;
 
+import java.util.Scanner;
+
 public class OrderAgnosticBS {
     
     public static void main(String[] args) {
+    int[] arr = {-12,-10,-5,-2,4,8,10,12,16,20};
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter the number to search : ");
+    int n = in.nextInt();
+    System.out.println(OrderAgnosticBinaryS(arr,n));
+    in.close();
         
     }
     static int OrderAgnosticBinaryS( int[] arr, int x){
